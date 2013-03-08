@@ -10,8 +10,8 @@ LuaHostQt
     * How to create Qt/CCEGLView ??
 
 * Create new GLView
-   * MainLoop. Complete cocos2d::CCApplicationProtocol
-   * renderWidth. Complete cocos2d::CCEGLViewProtocol
+   * MainLoop. Complete cocos2d::CCApplicationProtocol / Maybe cocos2d::CCApplication
+   * renderWidth. Complete cocos2d::CCEGLViewProtocol  / Maybe cocos2d::CCEGLView
 
 ```c++
 class GLView : public cocos2d::CCEGLViewProtocol, public QGLWidget
