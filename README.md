@@ -49,5 +49,16 @@ class AppDelegate : public Application
 // app->run();
 ```
 
+Chinese
+====
+
+需要解决两个问题:
+* 主循环
+* 用glew 产生GL环境 
+
+这个貌似又回到为cocos2d-x 做一个Qt 的移植的问题上.
+
+
 [quick]:https://github.com/dualface/quick-cocos2d-x
 [Qt]:http://qt-project.org/
+
